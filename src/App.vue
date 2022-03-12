@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <IfTest/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import IfTest from './components/IfTest'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    IfTest
   }
 }
 </script>
