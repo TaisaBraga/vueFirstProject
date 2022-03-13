@@ -4,6 +4,7 @@
     <ForTest/>
     <EventTest/>
     <FavoritePages/>
+    <CounterTest/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import IfTest from './components/IfTest'
 import ForTest from './components/ForTest'
 import EventTest from './components/EventTest'
 import FavoritePages from './components/FavoritePages'
+import CounterTest from './components/CounterTest'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     IfTest,
     ForTest,
     EventTest,
-    FavoritePages
+    FavoritePages,
+    CounterTest
   }
 }
 </script>
