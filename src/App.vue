@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <IfTest/>
+    <ForTest/>
   </div>
 </template>
 
 <script>
 import IfTest from './components/IfTest'
+import ForTest from './components/ForTest'
 
 export default {
   name: 'App',
   components: {
-    IfTest
+    IfTest,
+    ForTest
   }
 }
 </script>
