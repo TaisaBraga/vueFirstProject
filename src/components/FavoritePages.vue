@@ -3,9 +3,9 @@
     <h2>Favorite Pages</h2>
     <ul>
       <li 
-      v-for="site of favoritePages" 
-      v-bind:key="site.id">
-        <a href="site.url">{{ site.nome }}</a>
+      v-for="page of favoritePages" 
+      v-bind:key="page.id">
+        <a :href="page.link">{{ page.nome }}</a>
       </li>
     </ul>
   </div>
@@ -25,7 +25,8 @@ export default {
     .then(response => response.json()) // entao resultado e atribuir a json
     .then(json => { //json atribuir ao favoritePages
       this.favoritePages = json
-    });
+      
+    })
   }
 }
 </script>
