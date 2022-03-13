@@ -2,18 +2,21 @@
   <div id="app">
     <IfTest/>
     <ForTest/>
+    <EventTest/>
   </div>
 </template>
 
 <script>
 import IfTest from './components/IfTest'
 import ForTest from './components/ForTest'
+import EventTest from './components/EventTest'
 
 export default {
   name: 'App',
   components: {
     IfTest,
-    ForTest
+    ForTest,
+    EventTest
   }
 }
 </script>
