@@ -9,8 +9,8 @@
       <button v-on:click="counter = counter + 1">+</button> 
     --->
 
-      <button v-on:click="minusOne" >-</button>
-      <button v-on:click="plusOne">+</button> 
+      <button @click="minusOne" >-</button>
+      <button @click="plusOne">+</button> 
     
   </div>
 </template>
